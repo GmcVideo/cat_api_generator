@@ -1,0 +1,76 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.br{
+  width: 100%;
+  height: 0%;
+}
+/*button{
+  margin: 3em;
+  width: 300px;
+  box-sizing: border-box;
+  font-size: 150%;
+  color: white;
+  background-color: #ff791f;
+  border: ;
+}*/
+.butt {
+  margin: 1em 0em 1em 0em;
+  width: 300px;
+  padding: 15px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  animation: rgb_butt 4s linear infinite;
+}
+@keyframes rgb_butt {
+  0%{background-color: #F60000}
+  14%{background-color: #FF8C00}
+  28%{background-color: #FFEE00}
+  42%{background-color: #4DE94C}
+  56%{background-color: #4DE94C}
+  70%{background-color: #3783FF}
+  84%{background-color: #4815AA}
+  100%{background-color: #F60000}
+}
+img{
+  box-sizing: border-box;
+  border-radius: 5px;
+  animation: rgb_img 4s linear infinite;
+}
+@keyframes rgb_img {
+  0%{border: #F60000 solid 3px}
+  14%{border: #FF8C00 solid 3px}
+  28%{border: #FFEE00 solid 3px}
+  42%{border: #4DE94C solid 3px}
+  56%{border: #4DE94C solid 3px}
+  70%{border: #3783FF solid 3px}
+  84%{border: #4815AA solid 3px}
+  100%{border: #F60000 solid 3px}
+}
+#podpis{
+  color: #838383;
+}
+#kotard{
+  width: 500px;
+}
